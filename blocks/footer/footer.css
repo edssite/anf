@@ -18,3 +18,41 @@ footer .footer p {
     padding: 40px 32px 24px;
   }
 }
+
+.footer-centre {
+  width: 100%;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center;
+}
+
+
+.footer-centre p{
+font-size: x-small;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-links h2 {
+  font-size: small;
+}
+.footer-links a:any-link {
+  font-size: small;
+  text-decoration: none;
+  color: gray;
+}
+
+
+.footer-links img {
+  width: 100px;
+  height: 100%;
+}
+
+.footer-bottom {
+  display: flex;
+  font-size: x-small;
+  justify-content: space-between;
+}

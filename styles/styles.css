@@ -20,8 +20,8 @@
   --link-hover-color: #1d3ecf;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  --body-font-family: trade, roboto, roboto-fallback, sans-serif;
+  --heading-font-family: trade, roboto-condensed, roboto-condensed-fallback, sans-serif;
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -234,8 +234,8 @@ main > .section {
 
 main > .section > div {
   max-width: 1200px;
-  margin: auto;
-  padding: 0 24px;
+  margin: 0;
+  padding: 0px;
 }
 
 main > .section:first-of-type {
@@ -254,4 +254,45 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+.sidebar-container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  color: gray;
+  border-top: gray 1px solid;
+  font-size: small;
+}
+
+.cards-wrapper {
+  width: 100%;
+}
+
+.blue-nav-container {
+  width: 100%;
+}
+
+
+.blue-nav-wrapper {
+  width: 100%;
+}
+
+.blue-nav-container {
+  display: flex;
+  justify-content: center; /* Centers items horizontally */
+  align-items: center;    /* Centers items vertically */
+  text-align: center;     /* Centers text inside the items if needed */
+  width: 100%;
+  font-size: small;
+  background-color: rgb(0, 0, 114);
+  color: white;
 }

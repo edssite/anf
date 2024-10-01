@@ -296,3 +296,13 @@ main .section.highlight {
   background-color: rgb(0, 0, 114);
   color: white;
 }
+
+.banner-flex img {
+  width: 500px;
+}
+
+.banner-flex {
+  justify-content: center; /* Centers items horizontally */
+  align-items: center;    /* Centers items vertically */
+  text-align: center;     /* Centers text inside the items if needed */
+}
